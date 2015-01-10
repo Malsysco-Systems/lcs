@@ -9,7 +9,6 @@
   </parent>
   <groupId>com.malsysco.lcs.ui</groupId>
   <artifactId>lcs-ui</artifactId>
-  <version>1.0-SNAPSHOT</version>
   <name>lcs-ui</name>
   <url>http://maven.apache.org</url>
   <properties>

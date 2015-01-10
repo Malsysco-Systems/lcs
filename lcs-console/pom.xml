@@ -9,7 +9,6 @@
   </parent>
   <groupId>com.malsysco.lcs.console</groupId>
   <artifactId>lcs-console</artifactId>
-  <version>1.0-SNAPSHOT</version>
   <name>lcs-console</name>
   <url>http://maven.apache.org</url>
   <properties>
