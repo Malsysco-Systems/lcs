@@ -12,7 +12,7 @@
   <name>lcs-console</name>
   <url>http://maven.apache.org</url>
   <properties>
-  	<dropwizard.version>0.7.1</dropwizard.version>
+    <dropwizard.version>0.7.1</dropwizard.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   <dependencies>
@@ -23,9 +23,9 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-        <groupId>io.dropwizard</groupId>
-        <artifactId>dropwizard-core</artifactId>
-        <version>${dropwizard.version}</version>
+       <groupId>io.dropwizard</groupId>
+       <artifactId>dropwizard-core</artifactId>
+       <version>${dropwizard.version}</version>
     </dependency>
  </dependencies>
 </project>
