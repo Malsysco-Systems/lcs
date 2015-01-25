@@ -12,6 +12,10 @@ import com.malsysco.lcsconsole.resources.UsersResource;
 
 public class LCSApplication extends Application<LCSConfiguration> {
 	
+	public static void main(String[] args) throws Exception {
+        new LCSApplication().run(args);
+    }
+	
 	private final HibernateBundle<LCSConfiguration> hibernate = new HibernateBundle<LCSConfiguration>(UsersDTO.class) {
 	    @Override
 	    public DataSourceFactory getDataSourceFactory(LCSConfiguration configuration) {
