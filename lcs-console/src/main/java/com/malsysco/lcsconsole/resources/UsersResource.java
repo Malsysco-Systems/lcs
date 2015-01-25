@@ -28,4 +28,11 @@ public class UsersResource {
 		return new UsersDTO();
 	}
 
+	/**
+	 * @return the userDAO
+	 */
+	public UsersDAO getUserDAO() {
+		return userDAO;
+	}
+
 }
